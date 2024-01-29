@@ -7,8 +7,8 @@ pd.set_option('expand_frame_repr', False)
 okex = ccxt.okex({
     'timeout': 1000,
     'enableRateLimit': True,
-    'apiKey': 'ee98612e-1935-4df4-8a48-94b1a0731e60',
-    'secret': 'BEE9431441052767ECFF54B8AF6E772A',
+    'apiKey': '-',
+    'secret': '-',
 })
 okex.proxies = {
     'http': 'http://127.0.0.1:1087',
